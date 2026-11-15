@@ -1,0 +1,300 @@
+{
+  "note": "One cue sheet for picture and sound. lines: the voice script (say = what the voice reads, text = caption). tools/vo.mjs fills in dur and words. shots: where each shot cuts in (at a time, before a line, or before a spoken word).",
+  "leadIn": 0.3,
+  "tail": 1.95,
+  "lines": [
+    {
+      "id": "hook",
+      "shot": "struggle",
+      "text": "Still writing code... by hand?",
+      "dur": 2.814,
+      "gap": 0.6,
+      "cc": false,
+      "say": "[skeptical] Still writing code... by hand?",
+      "words": [
+        { "w": "Still", "t0": 0.214, "t1": 0.429 },
+        { "w": "writing", "t0": 0.5, "t1": 0.857 },
+        { "w": "code...", "t0": 0.929, "t1": 1.714 },
+        { "w": "by", "t0": 1.786, "t1": 2 },
+        { "w": "hand?", "t0": 2.214, "t1": 2.714 }
+      ]
+    },
+    {
+      "id": "intro",
+      "shot": "title",
+      "text": "Introducing Dial-A-Dev 98!",
+      "dur": 2.457,
+      "gap": 0.3,
+      "say": "[excited] Introducing Dial-A-Dev ninety-eight!",
+      "words": [
+        { "w": "Introducing", "t0": 0.071, "t1": 0.643 },
+        { "w": "Dial-A-Dev", "t0": 0.857, "t1": 1.429 },
+        { "w": "ninety-eight!", "t0": 1.571, "t1": 2.357 }
+      ]
+    },
+    {
+      "id": "discs",
+      "shot": "discs",
+      "text": "The artificial intelligence coding agent, on fourteen CD-ROMs!",
+      "dur": 4.386,
+      "gap": 0.9,
+      "words": [
+        { "w": "The", "t0": 0, "t1": 0.143 },
+        { "w": "artificial", "t0": 0.214, "t1": 0.643 },
+        { "w": "intelligence", "t0": 0.714, "t1": 1.214 },
+        { "w": "coding", "t0": 1.286, "t1": 1.643 },
+        { "w": "agent,", "t0": 1.714, "t1": 2.214 },
+        { "w": "on", "t0": 2.321, "t1": 2.429 },
+        { "w": "fourteen", "t0": 2.5, "t1": 3.071 },
+        { "w": "CD-ROMs!", "t0": 3.143, "t1": 4.286 }
+      ]
+    },
+    {
+      "id": "prompt",
+      "shot": "prompt",
+      "text": "Just type what you want in plain English,",
+      "dur": 2.386,
+      "gap": 0.15,
+      "words": [
+        { "w": "Just", "t0": 0, "t1": 0.214 },
+        { "w": "type", "t0": 0.286, "t1": 0.5 },
+        { "w": "what", "t0": 0.571, "t1": 0.643 },
+        { "w": "you", "t0": 0.714, "t1": 0.786 },
+        { "w": "want", "t0": 0.929, "t1": 1.071 },
+        { "w": "in", "t0": 1.143, "t1": 1.286 },
+        { "w": "plain", "t0": 1.357, "t1": 1.571 },
+        { "w": "English,", "t0": 1.714, "t1": 2.286 }
+      ]
+    },
+    {
+      "id": "dial",
+      "shot": "dial",
+      "text": "and Dial-A-Dev dials up the model!",
+      "dur": 2.529,
+      "gap": 0.65,
+      "words": [
+        { "w": "and", "t0": 0, "t1": 0.143 },
+        { "w": "Dial-A-Dev", "t0": 0.286, "t1": 0.929 },
+        { "w": "dials", "t0": 1.071, "t1": 1.429 },
+        { "w": "up", "t0": 1.5, "t1": 1.571 },
+        { "w": "the", "t0": 1.643, "t1": 1.714 },
+        { "w": "model!", "t0": 1.786, "t1": 2.429 }
+      ]
+    },
+    {
+      "id": "build",
+      "shot": "build",
+      "text": "It writes the code while you sleep, and ships by morning!",
+      "dur": 3.1,
+      "gap": 0.4,
+      "words": [
+        { "w": "It", "t0": 0, "t1": 0.143 },
+        { "w": "writes", "t0": 0.214, "t1": 0.429 },
+        { "w": "the", "t0": 0.5, "t1": 0.571 },
+        { "w": "code", "t0": 0.679, "t1": 0.786 },
+        { "w": "while", "t0": 0.857, "t1": 1 },
+        { "w": "you", "t0": 1.071, "t1": 1.214 },
+        { "w": "sleep,", "t0": 1.393, "t1": 1.643 },
+        { "w": "and", "t0": 1.714, "t1": 1.786 },
+        { "w": "ships", "t0": 1.857, "t1": 2.143 },
+        { "w": "by", "t0": 2.214, "t1": 2.286 },
+        { "w": "morning!", "t0": 2.357, "t1": 3 }
+      ]
+    },
+    {
+      "id": "guard",
+      "shot": "guard",
+      "text": "With Phone-Line Guard, nobody picks up the phone and kills your build.",
+      "dur": 3.957,
+      "gap": 0.35,
+      "words": [
+        { "w": "With", "t0": 0, "t1": 0.143 },
+        { "w": "Phone-Line", "t0": 0.214, "t1": 0.643 },
+        { "w": "Guard,", "t0": 0.714, "t1": 1.214 },
+        { "w": "nobody", "t0": 1.357, "t1": 1.643 },
+        { "w": "picks", "t0": 1.786, "t1": 1.929 },
+        { "w": "up", "t0": 2, "t1": 2.071 },
+        { "w": "the", "t0": 2.107, "t1": 2.143 },
+        { "w": "phone", "t0": 2.214, "t1": 2.5 },
+        { "w": "and", "t0": 2.607, "t1": 2.714 },
+        { "w": "kills", "t0": 2.857, "t1": 3 },
+        { "w": "your", "t0": 3.071, "t1": 3.214 },
+        { "w": "build.", "t0": 3.393, "t1": 3.857 }
+      ]
+    },
+    {
+      "id": "wait",
+      "shot": "wait",
+      "text": "But wait, there's more!",
+      "dur": 1.886,
+      "gap": 0.2,
+      "say": "[shouting] But wait, there's more!",
+      "words": [
+        { "w": "But", "t0": 0.143, "t1": 0.286 },
+        { "w": "wait,", "t0": 0.357, "t1": 0.75 },
+        { "w": "there's", "t0": 0.857, "t1": 1.214 },
+        { "w": "more!", "t0": 1.429, "t1": 1.786 }
+      ]
+    },
+    {
+      "id": "hours",
+      "shot": "offer",
+      "text": "Order now and get five hundred free hours of context!",
+      "dur": 3.6,
+      "gap": 0.2,
+      "words": [
+        { "w": "Order", "t0": 0, "t1": 0.286 },
+        { "w": "now", "t0": 0.357, "t1": 0.571 },
+        { "w": "and", "t0": 0.643, "t1": 0.786 },
+        { "w": "get", "t0": 0.857, "t1": 0.929 },
+        { "w": "five", "t0": 1.071, "t1": 1.286 },
+        { "w": "hundred", "t0": 1.429, "t1": 1.714 },
+        { "w": "free", "t0": 1.857, "t1": 2.071 },
+        { "w": "hours", "t0": 2.143, "t1": 2.429 },
+        { "w": "of", "t0": 2.5, "t1": 2.571 },
+        { "w": "context!", "t0": 2.643, "t1": 3.5 }
+      ]
+    },
+    {
+      "id": "price",
+      "shot": "offer",
+      "text": "All for just three easy payments of nineteen ninety-five!",
+      "dur": 3.386,
+      "gap": 0.35,
+      "words": [
+        { "w": "All", "t0": 0, "t1": 0.214 },
+        { "w": "for", "t0": 0.286, "t1": 0.357 },
+        { "w": "just", "t0": 0.429, "t1": 0.643 },
+        { "w": "three", "t0": 0.714, "t1": 0.929 },
+        { "w": "easy", "t0": 1, "t1": 1.214 },
+        { "w": "payments", "t0": 1.286, "t1": 1.643 },
+        { "w": "of", "t0": 1.714, "t1": 1.786 },
+        { "w": "nineteen", "t0": 1.857, "t1": 2.286 },
+        { "w": "ninety-five!", "t0": 2.357, "t1": 3.286 }
+      ]
+    },
+    {
+      "id": "call",
+      "shot": "end",
+      "text": "Dial-A-Dev 98. Call now!",
+      "dur": 2.743,
+      "gap": 0.2,
+      "say": "[excited] Dial-A-Dev ninety-eight. Call now!",
+      "words": [
+        { "w": "Dial-A-Dev", "t0": 0.143, "t1": 0.714 },
+        { "w": "ninety-eight.", "t0": 0.857, "t1": 1.571 },
+        { "w": "Call", "t0": 1.714, "t1": 1.857 },
+        { "w": "now!", "t0": 1.929, "t1": 2.643 }
+      ]
+    },
+    {
+      "id": "legal",
+      "shot": "end",
+      "text": "Modem and second phone line required. Do not pick up the phone.",
+      "dur": 3.101,
+      "gap": 0.2,
+      "say": "[fast, flat, quiet disclaimer] Modem and second phone line required. Do not pick up the phone.",
+      "words": [
+        { "w": "Modem", "t0": 0.072, "t1": 0.358 },
+        { "w": "and", "t0": 0.429, "t1": 0.501 },
+        { "w": "second", "t0": 0.572, "t1": 0.787 },
+        { "w": "phone", "t0": 0.858, "t1": 1.001 },
+        { "w": "line", "t0": 1.072, "t1": 1.144 },
+        { "w": "required.", "t0": 1.215, "t1": 1.787 },
+        { "w": "Do", "t0": 1.929, "t1": 2.001 },
+        { "w": "not", "t0": 2.072, "t1": 2.215 },
+        { "w": "pick", "t0": 2.287, "t1": 2.358 },
+        { "w": "up", "t0": 2.429, "t1": 2.501 },
+        { "w": "the", "t0": 2.537, "t1": 2.572 },
+        { "w": "phone.", "t0": 2.644, "t1": 3.001 }
+      ]
+    },
+    {
+      "id": "mom",
+      "shot": "carrier",
+      "text": "Hello?",
+      "say": "[confused, cheerful] Hello?",
+      "cc": "MOM: HELLO?",
+      "voice": "XrExE9yKIg1WjnnlVkGX",
+      "dur": 1.1,
+      "gap": 0,
+      "words": [
+        { "w": "Hello?", "t0": 0.357, "t1": 1 }
+      ]
+    }
+  ],
+  "sounds": [
+    {
+      "after": "dial",
+      "offset": 0.08,
+      "dur": 0.95,
+      "text": "[MODEM SCREECHING]"
+    }
+  ],
+  "voice": {
+    "tempo": 1.12,
+    "id": "SXFKX2ZRcEHOZ4DItfRm",
+    "model": "eleven_v4",
+    "speed": 1.2,
+    "stability": 0.4,
+    "style": 0.6
+  },
+  "shots": [
+    {
+      "name": "struggle",
+      "at": 0
+    },
+    {
+      "name": "title",
+      "line": "intro"
+    },
+    {
+      "name": "discs",
+      "mark": [
+        "discs",
+        "on fourteen"
+      ],
+      "lead": 0.22
+    },
+    {
+      "name": "prompt",
+      "line": "prompt"
+    },
+    {
+      "name": "dial",
+      "line": "dial"
+    },
+    {
+      "name": "build",
+      "line": "build"
+    },
+    {
+      "name": "guard",
+      "line": "guard"
+    },
+    {
+      "name": "wait",
+      "line": "wait",
+      "lead": 0.12
+    },
+    {
+      "name": "offer",
+      "line": "hours"
+    },
+    {
+      "name": "end",
+      "line": "call"
+    },
+    {
+      "name": "carrier",
+      "mark": [
+        "legal",
+        "Do"
+      ],
+      "lead": 0.3
+    }
+  ],
+  "music": {
+    "from": "title"
+  }
+}

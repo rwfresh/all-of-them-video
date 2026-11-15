@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<title>Dial-A-Dev 98</title>
+<style>
+  @font-face { font-family: "Anton"; src: url("/assets/fonts/Anton-Regular.ttf"); }
+  @font-face { font-family: "Archivo Black"; src: url("/assets/fonts/ArchivoBlack-Regular.ttf"); }
+  @font-face { font-family: "Lib Serif"; src: url("/assets/fonts/LiberationSerif-BoldItalic.ttf"); font-weight: 700; font-style: italic; }
+  @font-face { font-family: "Lib Serif"; src: url("/assets/fonts/LiberationSerif-Bold.ttf"); font-weight: 700; font-style: normal; }
+  @font-face { font-family: "Lib Sans"; src: url("/assets/fonts/LiberationSans-Regular.ttf"); font-weight: 400; }
+  @font-face { font-family: "Lib Sans"; src: url("/assets/fonts/LiberationSans-Bold.ttf"); font-weight: 700; }
+  @font-face { font-family: "VT323"; src: url("/assets/fonts/VT323-Regular.ttf"); }
+  @font-face { font-family: "DotGothic16"; src: url("/assets/fonts/DotGothic16-Regular.ttf"); }
+  @font-face { font-family: "Michroma"; src: url("/assets/fonts/Michroma-Regular.ttf"); }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  canvas#film { display: block; width: 1920px; height: 1080px; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<canvas id="film" width="1920" height="1080"></canvas>
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>

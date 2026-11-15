@@ -1,0 +1,278 @@
+[
+ {
+  "name": "page_turn",
+  "text": "A thick cardboard book page turning, papery swoosh and a soft thump",
+  "dur": 1,
+  "influence": 0.6
+ },
+ {
+  "name": "book_open",
+  "text": "A heavy board book cover opening, cardboard creak and a soft thud",
+  "dur": 1.1,
+  "influence": 0.6
+ },
+ {
+  "name": "paper_pop",
+  "text": "Soft dry paper pop, a small cardboard piece springing up, close microphone",
+  "dur": 0.6,
+  "influence": 0.6
+ },
+ {
+  "name": "idea_ding",
+  "text": "Bright single bell ding, a light-bulb idea chime",
+  "dur": 1,
+  "influence": 0.6
+ },
+ {
+  "name": "robot_boot",
+  "text": "Cute small toy robot powering up, friendly rising beeps",
+  "dur": 1,
+  "influence": 0.6
+ },
+ {
+  "name": "sign_flip",
+  "text": "A card sign flipping over with a quick papery flap",
+  "dur": 0.6,
+  "influence": 0.6
+ },
+ {
+  "name": "coin_flip",
+  "text": "A coin flicked into the air with a thumb, metallic ringing spin",
+  "dur": 1,
+  "influence": 0.6
+ },
+ {
+  "name": "coin_catch",
+  "text": "A coin caught in a palm, soft slap with a tiny metal clink",
+  "dur": 0.5,
+  "influence": 0.6
+ },
+ {
+  "name": "think_tick",
+  "text": "Fast mechanical stopwatch ticking, steady and close",
+  "dur": 3,
+  "influence": 0.6
+ },
+ {
+  "name": "timer_ding",
+  "text": "Kitchen timer ding, one clear bell",
+  "dur": 1,
+  "influence": 0.6
+ },
+ {
+  "name": "bubble_flip",
+  "text": "A thick paper flap flipping up with a comic pop",
+  "dur": 0.6,
+  "influence": 0.6
+ },
+ {
+  "name": "sparkle",
+  "text": "Magical sparkle, short glittering chime",
+  "dur": 1.2,
+  "influence": 0.6
+ },
+ {
+  "name": "snore_pop",
+  "text": "One short cartoon snore, comic",
+  "dur": 1,
+  "influence": 0.6
+ },
+ {
+  "name": "megaphone_up",
+  "text": "Short megaphone feedback squeak, comic",
+  "dur": 0.6,
+  "influence": 0.6
+ },
+ {
+  "name": "spotlight_on",
+  "text": "A heavy stage spotlight switching on with a deep clunk",
+  "dur": 0.8,
+  "influence": 0.6
+ },
+ {
+  "name": "robot_tada",
+  "text": "Cute toy robot fanfare, short rising beeps, ta-da",
+  "dur": 1,
+  "influence": 0.6
+ },
+ {
+  "name": "clapper",
+  "text": "One loud hand clap",
+  "dur": 0.8,
+  "influence": 0.4
+ },
+ {
+  "name": "tap",
+  "text": "One finger tap on a phone screen, soft click",
+  "dur": 0.5,
+  "influence": 0.6
+ },
+ {
+  "name": "post_sent",
+  "text": "Short airy whoosh of a message being sent",
+  "dur": 0.7,
+  "influence": 0.6
+ },
+ {
+  "name": "crowd_pop",
+  "text": "Several small paper pieces popping up in quick succession",
+  "dur": 1,
+  "influence": 0.6
+ },
+ {
+  "name": "heart_pop",
+  "text": "Soft bubbly pop, light and cute",
+  "dur": 0.5,
+  "influence": 0.6
+ },
+ {
+  "name": "big_heart_pop",
+  "text": "A bigger soft pop with a springy boing",
+  "dur": 0.8,
+  "influence": 0.6
+ },
+ {
+  "name": "stamp",
+  "text": "A rubber stamp thumping onto paper",
+  "dur": 0.5,
+  "influence": 0.6
+ },
+ {
+  "name": "machine_start",
+  "text": "A small cartoon machine starting up, whirr and clunk",
+  "dur": 1.2,
+  "influence": 0.6
+ },
+ {
+  "name": "gear_tick",
+  "text": "Wooden toy gears ratcheting, a few quick clicks",
+  "dur": 0.8,
+  "influence": 0.6
+ },
+ {
+  "name": "coin_clink",
+  "text": "Coins dropping onto a pile of coins, short clink",
+  "dur": 0.6,
+  "influence": 0.6
+ },
+ {
+  "name": "flap_flip",
+  "text": "A cardboard flap flipping up, quick paper snap",
+  "dur": 0.5,
+  "influence": 0.6
+ },
+ {
+  "name": "heart_drop",
+  "text": "A single soft pop",
+  "dur": 0.6,
+  "influence": 0.6
+ },
+ {
+  "name": "slide_whistle_up",
+  "text": "A slide whistle sliding up, comic",
+  "dur": 0.9,
+  "influence": 0.6
+ },
+ {
+  "name": "crown_ding",
+  "text": "Bright royal bell ding with a shimmer",
+  "dur": 1,
+  "influence": 0.6
+ },
+ {
+  "name": "grumble_thunder",
+  "text": "Small comic thunder rumble from a tiny storm cloud",
+  "dur": 1.3,
+  "influence": 0.6
+ },
+ {
+  "name": "whoosh_in",
+  "text": "Fast whoosh, rushing forward",
+  "dur": 0.7,
+  "influence": 0.6
+ },
+ {
+  "name": "ui_scroll",
+  "text": "Quick soft swish, fast scroll",
+  "dur": 0.5,
+  "influence": 0.6
+ },
+ {
+  "name": "ui_scroll_soft",
+  "text": "Gentle soft swish",
+  "dur": 0.5,
+  "influence": 0.6
+ },
+ {
+  "name": "whoosh_out",
+  "text": "A whoosh pulling back, airy",
+  "dur": 0.7,
+  "influence": 0.6
+ },
+ {
+  "name": "letter_pop",
+  "text": "One short cork pop",
+  "dur": 0.6,
+  "influence": 0.6
+ },
+ {
+  "name": "banner_flip",
+  "text": "A long paper banner flipping up with a flutter",
+  "dur": 0.8,
+  "influence": 0.6
+ },
+ {
+  "name": "ta_da",
+  "text": "Short cheerful toy fanfare on glockenspiel, ta-da",
+  "dur": 1.2,
+  "influence": 0.6
+ },
+ {
+  "name": "bubble_pop",
+  "text": "Small comic pop",
+  "dur": 0.5,
+  "influence": 0.6
+ },
+ {
+  "name": "paper_slide",
+  "text": "A sheet of card sliding out, long papery scrape",
+  "dur": 0.8,
+  "influence": 0.6
+ },
+ {
+  "name": "coin_shower",
+  "text": "A shower of many coins pouring and jingling onto a pile",
+  "dur": 2.6,
+  "influence": 0.6
+ },
+ {
+  "name": "firework_pop",
+  "text": "A small firework pop with a short crackle",
+  "dur": 0.9,
+  "influence": 0.6
+ },
+ {
+  "name": "knock",
+  "text": "One loud knock on a wooden door",
+  "dur": 0.6,
+  "influence": 0.4
+ },
+ {
+  "name": "book_close",
+  "text": "A heavy hardcover book slammed shut, deep thud",
+  "dur": 0.9,
+  "influence": 0.6
+ },
+ {
+  "name": "typing",
+  "text": "Fast light typing on a computer keyboard",
+  "dur": 1.2,
+  "influence": 0.6
+ },
+ {
+  "name": "dream_harp",
+  "text": "A dreamy harp glissando sweeping upward, cartoon dream sequence, sparkling and soft",
+  "dur": 1.8,
+  "influence": 0.6
+ }
+]

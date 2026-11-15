@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<title>Builder Wars: A Very Simple Story</title>
+<style>
+  /* Every font the film uses is a local file, so a render never depends on the network. List them in film.js too. */
+  @font-face { font-family: "Schoolbook"; src: url("/assets/fonts/C059-Roman.otf"); font-weight: 400; font-style: normal; }
+  @font-face { font-family: "Schoolbook"; src: url("/assets/fonts/C059-Bold.otf"); font-weight: 700; font-style: normal; }
+  @font-face { font-family: "Schoolbook"; src: url("/assets/fonts/C059-Italic.otf"); font-weight: 400; font-style: italic; }
+  @font-face { font-family: "Anton"; src: url("/assets/fonts/Anton-Regular.ttf"); }
+  @font-face { font-family: "Bookman"; src: url("/assets/fonts/URWBookman-Demi.otf"); font-weight: 600; }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  canvas#film { display: block; width: 1920px; height: 1080px; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<canvas id="film" width="1920" height="1080"></canvas>
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+{
+ "positive_global_styles": [
+  "instrumental",
+  "cinematic synthwave electronica",
+  "exactly 124 BPM, steady tempo",
+  "pulsing arpeggiated analog synths",
+  "deep sub bass",
+  "gated reverb snare",
+  "wide lush pads",
+  "awe and momentum",
+  "neon 1980s outrun energy at the drop"
+ ],
+ "negative_global_styles": [
+  "vocals",
+  "singing",
+  "spoken word",
+  "tempo changes",
+  "acoustic guitar",
+  "jazz",
+  "long silences"
+ ],
+ "sections": [
+  {
+   "section_name": "Quiet opening",
+   "positive_local_styles": [
+    "very sparse and quiet",
+    "one soft muted pulse on every beat",
+    "a delicate plucked melody enters after a few seconds",
+    "light closed hi-hat ticks",
+    "curious and gentle",
+    "no kick drum yet"
+   ],
+   "negative_local_styles": [
+    "kick drum",
+    "heavy bass",
+    "loud",
+    "busy"
+   ],
+   "duration_ms": 15484,
+   "lines": []
+  },
+  {
+   "section_name": "Groove",
+   "positive_local_styles": [
+    "the full beat enters on the very first beat",
+    "four-on-the-floor kick",
+    "claps",
+    "driving bassline",
+    "a new layer joins every two bars",
+    "energetic"
+   ],
+   "negative_local_styles": [
+    "breakdown",
+    "silence",
+    "slow"
+   ],
+   "duration_ms": 19355,
+   "lines": []
+  },
+  {
+   "section_name": "Breakdown and build",
+   "positive_local_styles": [
+    "the drums drop out at the start",
+    "calm clean chords for the first half",
+    "then a rising noise riser and an accelerating snare roll in the second half",
+    "tension rising to the last beat"
+   ],
+   "negative_local_styles": [
+    "kick drum in the first half",
+    "silence",
+    "resolved"
+   ],
+   "duration_ms": 11613,
+   "lines": []
+  },
+  {
+   "section_name": "Drop",
+   "positive_local_styles": [
+    "full power from the very first beat with no build-up",
+    "a big impact hit on beat one",
+    "kick and bass hit immediately",
+    "soaring lead melody",
+    "euphoric, wide and loud",
+    "the loudest part of the track"
+   ],
+   "negative_local_styles": [
+    "quiet",
+    "sparse",
+    "silence",
+    "build-up",
+    "riser"
+   ],
+   "duration_ms": 15484,
+   "lines": []
+  },
+  {
+   "section_name": "Ending",
+   "positive_local_styles": [
+    "a sudden calm airy pad with no drums at first",
+    "then the beat returns, bouncy and playful, with claps",
+    "then one final hit and a single soft note fading to silence",
+    "resolved"
+   ],
+   "negative_local_styles": [
+    "new melody",
+    "build-up"
+   ],
+   "duration_ms": 13113,
+   "lines": []
+  }
+ ]
+}

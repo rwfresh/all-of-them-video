@@ -1,0 +1,276 @@
+{
+  "note": "One cue sheet for picture and sound. lines: the voice script (say = what the voice reads, text = caption). tools/vo.mjs fills in dur and words. shots: where each shot cuts in (at a time, before a line, or before a spoken word). music.from: the shot where the music enters. hiss: tape hiss level, 0 for a clean track.",
+  "leadIn": 1.3,
+  "tail": 1.7,
+  "hiss": 0,
+  "music": {
+    "from": "cover",
+    "endLevel": 0.1,
+    "endPad": 0.25
+  },
+  "lines": [
+    {
+      "id": "sam",
+      "shot": "sam",
+      "text": "This is Sam.",
+      "dur": 1.1,
+      "gap": 0.55,
+      "words": [
+        { "w": "This", "t0": 0, "t1": 0.235 },
+        { "w": "is", "t0": 0.294, "t1": 0.353 },
+        { "w": "Sam.", "t0": 0.412, "t1": 1 }
+      ]
+    },
+    {
+      "id": "idea",
+      "shot": "idea",
+      "text": "Sam made up an app. It is an AI that flips a coin.",
+      "dur": 3.571,
+      "gap": 0.25,
+      "words": [
+        { "w": "Sam", "t0": 0, "t1": 0.353 },
+        { "w": "made", "t0": 0.412, "t1": 0.529 },
+        { "w": "up", "t0": 0.588, "t1": 0.647 },
+        { "w": "an", "t0": 0.706, "t1": 0.824 },
+        { "w": "app.", "t0": 0.882, "t1": 1.176 },
+        { "w": "It", "t0": 1.471, "t1": 1.529 },
+        { "w": "is", "t0": 1.588, "t1": 1.647 },
+        { "w": "an", "t0": 1.706, "t1": 1.824 },
+        { "w": "AI", "t0": 1.882, "t1": 2.353 },
+        { "w": "that", "t0": 2.412, "t1": 2.529 },
+        { "w": "flips", "t0": 2.588, "t1": 2.765 },
+        { "w": "a", "t0": 2.824, "t1": 2.853 },
+        { "w": "coin.", "t0": 2.882, "t1": 3.471 }
+      ]
+    },
+    {
+      "id": "thinks",
+      "shot": "idea",
+      "text": "It thinks for forty seconds. It depends.",
+      "cc": "It thinks for forty seconds.",
+      "dur": 3.571,
+      "gap": 0.35,
+      "words": [
+        { "w": "It", "t0": 0, "t1": 0.176 },
+        { "w": "thinks", "t0": 0.294, "t1": 0.588 },
+        { "w": "for", "t0": 0.647, "t1": 0.765 },
+        { "w": "forty", "t0": 0.882, "t1": 1.118 },
+        { "w": "seconds.", "t0": 1.235, "t1": 1.676 },
+        { "w": "It", "t0": 2.529, "t1": 2.647 },
+        { "w": "depends.", "t0": 2.706, "t1": 3.471 }
+      ],
+      "say": "It thinks for forty seconds. [pause] It depends."
+    },
+    {
+      "id": "bad",
+      "shot": "idea",
+      "text": "His app sucks.",
+      "dur": 1.571,
+      "gap": 0.55,
+      "words": [
+        { "w": "His", "t0": 0, "t1": 0.235 },
+        { "w": "app", "t0": 0.353, "t1": 0.588 },
+        { "w": "sucks.", "t0": 0.765, "t1": 1.471 }
+      ]
+    },
+    {
+      "id": "promo",
+      "shot": "promo",
+      "text": "Sam does not build it. Sam's AI makes the promo.",
+      "dur": 3.394,
+      "gap": 0.65,
+      "words": [
+        { "w": "Sam", "t0": 0, "t1": 0.353 },
+        { "w": "does", "t0": 0.441, "t1": 0.529 },
+        { "w": "not", "t0": 0.588, "t1": 0.765 },
+        { "w": "build", "t0": 0.824, "t1": 1 },
+        { "w": "it.", "t0": 1.059, "t1": 1.353 },
+        { "w": "Sam's", "t0": 1.529, "t1": 1.882 },
+        { "w": "AI", "t0": 1.941, "t1": 2.294 },
+        { "w": "makes", "t0": 2.353, "t1": 2.529 },
+        { "w": "the", "t0": 2.588, "t1": 2.647 },
+        { "w": "promo.", "t0": 2.706, "t1": 3.294 }
+      ]
+    },
+    {
+      "id": "post",
+      "shot": "post",
+      "text": "Sam posts it on X.",
+      "dur": 1.806,
+      "gap": 0.2,
+      "words": [
+        { "w": "Sam", "t0": 0, "t1": 0.353 },
+        { "w": "posts", "t0": 0.412, "t1": 0.706 },
+        { "w": "it", "t0": 0.765, "t1": 0.824 },
+        { "w": "on", "t0": 0.941, "t1": 1.059 },
+        { "w": "X.", "t0": 1.176, "t1": 1.706 }
+      ]
+    },
+    {
+      "id": "likes",
+      "shot": "post",
+      "text": "The likes are real.",
+      "dur": 1.512,
+      "gap": 0.8,
+      "words": [
+        { "w": "The", "t0": 0, "t1": 0.118 },
+        { "w": "likes", "t0": 0.176, "t1": 0.529 },
+        { "w": "are", "t0": 0.588, "t1": 0.706 },
+        { "w": "real.", "t0": 0.824, "t1": 1.412 }
+      ]
+    },
+    {
+      "id": "game",
+      "shot": "game",
+      "text": "The game turns them into users and money. Those are not real.",
+      "dur": 4.1,
+      "gap": 0.8,
+      "words": [
+        { "w": "The", "t0": 0, "t1": 0.118 },
+        { "w": "game", "t0": 0.176, "t1": 0.412 },
+        { "w": "turns", "t0": 0.471, "t1": 0.706 },
+        { "w": "them", "t0": 0.765, "t1": 0.824 },
+        { "w": "into", "t0": 0.941, "t1": 1.059 },
+        { "w": "users", "t0": 1.118, "t1": 1.588 },
+        { "w": "and", "t0": 1.647, "t1": 1.824 },
+        { "w": "money.", "t0": 1.941, "t1": 2.5 },
+        { "w": "Those", "t0": 2.706, "t1": 2.941 },
+        { "w": "are", "t0": 3.029, "t1": 3.118 },
+        { "w": "not", "t0": 3.235, "t1": 3.353 },
+        { "w": "real.", "t0": 3.412, "t1": 4 }
+      ]
+    },
+    {
+      "id": "rich",
+      "shot": "empire",
+      "text": "Sam is now a pretend millionaire.",
+      "dur": 2.512,
+      "gap": 0.95,
+      "words": [
+        { "w": "Sam", "t0": 0, "t1": 0.412 },
+        { "w": "is", "t0": 0.471, "t1": 0.647 },
+        { "w": "now", "t0": 0.735, "t1": 0.824 },
+        { "w": "a", "t0": 0.882, "t1": 0.941 },
+        { "w": "pretend", "t0": 1, "t1": 1.471 },
+        { "w": "millionaire.", "t0": 1.588, "t1": 2.412 }
+      ]
+    },
+    {
+      "id": "kim",
+      "shot": "kim",
+      "text": "This is Kim. Kim earns more. Sam is fine. Sam is totally fine.",
+      "dur": 5.041,
+      "gap": 1.1,
+      "words": [
+        { "w": "This", "t0": 0, "t1": 0.176 },
+        { "w": "is", "t0": 0.235, "t1": 0.353 },
+        { "w": "Kim.", "t0": 0.5, "t1": 1 },
+        { "w": "Kim", "t0": 1.059, "t1": 1.235 },
+        { "w": "earns", "t0": 1.294, "t1": 1.529 },
+        { "w": "more.", "t0": 1.588, "t1": 2.118 },
+        { "w": "Sam", "t0": 2.353, "t1": 2.588 },
+        { "w": "is", "t0": 2.647, "t1": 2.706 },
+        { "w": "fine.", "t0": 2.765, "t1": 3.412 },
+        { "w": "Sam", "t0": 3.529, "t1": 3.647 },
+        { "w": "is", "t0": 3.706, "t1": 3.882 },
+        { "w": "totally", "t0": 3.941, "t1": 4.353 },
+        { "w": "fine.", "t0": 4.529, "t1": 4.941 }
+      ]
+    },
+    {
+      "id": "wars",
+      "shot": "end",
+      "text": "Builder Wars. Launch apps. Grow on X for real. Top the leaderboard.",
+      "dur": 4.688,
+      "gap": 0.45,
+      "words": [
+        { "w": "Builder", "t0": 0, "t1": 0.353 },
+        { "w": "Wars.", "t0": 0.412, "t1": 0.971 },
+        { "w": "Launch", "t0": 1.118, "t1": 1.353 },
+        { "w": "apps,", "t0": 1.412, "t1": 1.941 },
+        { "w": "grow", "t0": 2, "t1": 2.176 },
+        { "w": "on", "t0": 2.235, "t1": 2.353 },
+        { "w": "X", "t0": 2.471, "t1": 2.647 },
+        { "w": "for", "t0": 2.706, "t1": 2.765 },
+        { "w": "real,", "t0": 2.882, "t1": 3.471 },
+        { "w": "top", "t0": 3.588, "t1": 3.706 },
+        { "w": "the", "t0": 3.765, "t1": 3.824 },
+        { "w": "leaderboard.", "t0": 3.941, "t1": 4.588 }
+      ],
+      "say": "Builder Wars. Launch apps, grow on X for real, top the leaderboard."
+    },
+    {
+      "id": "end",
+      "shot": "end",
+      "text": "The end. Your turn.",
+      "dur": 1.982,
+      "gap": 0,
+      "words": [
+        { "w": "The", "t0": 0, "t1": 0.235 },
+        { "w": "end.", "t0": 0.353, "t1": 0.912 },
+        { "w": "Your", "t0": 1.118, "t1": 1.235 },
+        { "w": "turn.", "t0": 1.294, "t1": 1.882 }
+      ]
+    }
+  ],
+  "shots": [
+    {
+      "name": "cover",
+      "at": 0
+    },
+    {
+      "name": "sam",
+      "line": "sam",
+      "lead": 0.75
+    },
+    {
+      "name": "idea",
+      "line": "idea",
+      "lead": 0.55
+    },
+    {
+      "name": "promo",
+      "line": "promo",
+      "lead": 0.55
+    },
+    {
+      "name": "post",
+      "line": "post",
+      "lead": 0.65
+    },
+    {
+      "name": "game",
+      "line": "game",
+      "lead": 0.55
+    },
+    {
+      "name": "empire",
+      "line": "rich",
+      "lead": 0.55
+    },
+    {
+      "name": "kim",
+      "line": "kim",
+      "lead": 0.55
+    },
+    {
+      "name": "end",
+      "line": "wars",
+      "lead": 0.55
+    }
+  ],
+  "voice": {
+    "tempo": 1.36,
+    "pitch": 0,
+    "id": "IrgFQWnSCv6fDOOekuOq",
+    "model": "eleven_v4",
+    "speed": 1,
+    "stability": 0.4,
+    "style": 0.6
+  },
+  "mix": {
+    "vo": 0.84,
+    "sfx": 0.7,
+    "music": 0.8
+  }
+}

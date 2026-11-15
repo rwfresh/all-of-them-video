@@ -1,0 +1,38 @@
+<!doctype html>
+<!-- The sticker shot alone, at any film time, also before its bar line (where the film itself shows the shot before it).
+     node harness/render.mjs film --page js/shots/sticker/preview.html --stills 34.35,34.6 --dir film/out/sheets/sticker-pre -->
+<meta charset="utf-8">
+<style>html, body { margin: 0; background: #000; overflow: hidden; } canvas { display: block; }</style>
+<canvas id="film" width="1920" height="1080"></canvas>
+<script type="module">
+import { buildClock } from '/film/js/clock.js';
+import { buildScript, termModel } from '/film/js/term.js';
+import * as util from '/film/js/util.js';
+import make from '/film/js/shots/08-sticker.js';
+const W = 1920, H = 1080, g = document.getElementById('film').getContext('2d');
+const cues = await (await fetch('/film/cues.json')).json();
+const clock = buildClock(cues), script = buildScript(cues, clock), s = clock.shot.sticker;
+const font = async (family, url, desc = {}) => { const f = new FontFace(family, `url("${url}")`, desc); await f.load(); document.fonts.add(f); };
+await font('JetBrains Mono', '/assets/fonts/JetBrainsMono-Regular.ttf', { weight: '400' });
+await font('JetBrains Mono', '/assets/fonts/JetBrainsMono-Bold.ttf', { weight: '700' });
+const image = (url) => fetch(url).then((r) => { if (!r.ok) throw new Error(url); return r.blob(); }).then((b) => createImageBitmap(b));
+const makeCanvas = (w = W, h = H) => { const c = document.createElement('canvas'); c.width = w; c.height = h; return c; };
+const levels = await (await fetch('/film/data/levels.json')).json();
+const music = { ready: true, at(t) { const f = Math.min(levels.n - 1, Math.max(0, t * levels.fps)), i = Math.floor(f); const bands = levels.bands.map((a) => a[i]); return { rms: levels.rms[i], low: 0, mid: 0, high: 0, bands }; } };
+const tag = { num: String(s.num).padStart(2, '0'), of: '15', name: s.style };
+const impl = await make({ W, H, fps: clock.fps, cues, clock, script, font, image, makeCanvas, util, music, shot: s, tag });
+window.FILM = { width: W, height: H, fps: clock.fps, duration: clock.duration, shots: [], lines: [], sfx: [] };
+window.renderAt = async (t) => {
+  const ab = clock.beat(t);
+  g.setTransform(1, 0, 0, 1, 0, 0); g.clearRect(0, 0, W, H); g.save();
+  impl.render(g, { t, lt: t - s.t0, ab, lb: ab - s.b0, beats: s.beats, dur: s.dur, spb: clock.spb, bpm: clock.bpm, W, H, fps: clock.fps, frame: Math.round(t * clock.fps), term: termModel(script, 'sticker', ab), tag, other: null, otherImpl: null, otherEnv: null, x: null, role: null, noDock: false });
+  g.restore();
+  if (new URLSearchParams(location.search).has('boxes')) {          // what handoff() reports, drawn over the picture
+    const h = impl.handoff({ lb: ab - s.b0, t });
+    g.lineWidth = 3;
+    for (const r of h.tiles) { g.strokeStyle = { wall: '#f0f', strip: '#0c0', print: '#00f', page: '#f00' }[r.kind]; g.strokeRect(r.x, r.y, r.w, r.h); }
+    g.strokeStyle = '#000'; g.strokeRect(h.number.x, h.number.y, h.number.w, h.number.h);
+  }
+};
+window.__ready = true;
+</script>

@@ -1,0 +1,146 @@
+[
+ {
+  "name": "vhs_start",
+  "text": "VHS tape pushed into a VCR, mechanical clunk, then a short burst of tape static",
+  "dur": 1.6,
+  "influence": 0.6
+ },
+ {
+  "name": "errors",
+  "text": "Rapid burst of harsh 1990s computer error beeps, accelerating, more and more overlapping",
+  "dur": 3.2,
+  "influence": 0.6
+ },
+ {
+  "name": "stamp",
+  "text": "Heavy rubber stamp slammed on a desk, deep thud",
+  "dur": 0.8,
+  "influence": 0.7
+ },
+ {
+  "name": "whoosh_hit",
+  "text": "Fast cinematic whoosh ending in a heavy metallic impact",
+  "dur": 1.4,
+  "influence": 0.6
+ },
+ {
+  "name": "slam_big",
+  "text": "Huge metallic slam with a short reverb tail, movie trailer impact hit",
+  "dur": 1.6,
+  "influence": 0.7
+ },
+ {
+  "name": "sparkle",
+  "text": "Bright magical sparkle shimmer chime",
+  "dur": 1.4,
+  "influence": 0.6
+ },
+ {
+  "name": "discs_whoosh",
+  "text": "Fourteen quick swishes in a row, small flat objects flying out one after another",
+  "dur": 1.6,
+  "influence": 0.6
+ },
+ {
+  "name": "cd_shimmer",
+  "text": "Bright glassy rising shimmer, crystalline and airy",
+  "dur": 1.8,
+  "influence": 0.5
+ },
+ {
+  "name": "keyboard",
+  "text": "Fast typing on a loud clacky 1990s computer keyboard",
+  "dur": 2.2,
+  "influence": 0.7
+ },
+ {
+  "name": "mouse_click",
+  "text": "Single crisp computer mouse click",
+  "dur": 0.5,
+  "influence": 0.8
+ },
+ {
+  "name": "pop",
+  "text": "Single short bright cartoon bubble pop",
+  "dur": 0.5,
+  "influence": 0.85
+ },
+ {
+  "name": "modem",
+  "text": "56k dial-up modem connecting: dial tone, fast touch-tone dialing, then screeching, warbling and hissing handshake noise",
+  "dur": 3.6,
+  "influence": 0.75
+ },
+ {
+  "name": "connect_chime",
+  "text": "Cheerful ascending three-note computer success chime, 1990s PC",
+  "dur": 1.0,
+  "influence": 0.7
+ },
+ {
+  "name": "data_chatter",
+  "text": "Fast chirpy retro computer data processing sounds, blips and beeps, hard drive chatter",
+  "dur": 3.4,
+  "influence": 0.6
+ },
+ {
+  "name": "rooster",
+  "text": "A rooster crowing once at dawn",
+  "dur": 1.8,
+  "influence": 0.7
+ },
+ {
+  "name": "lock_clunk",
+  "text": "Heavy steel padlock snapping shut, solid metallic clunk",
+  "dur": 0.7,
+  "influence": 0.7
+ },
+ {
+  "name": "buzzer",
+  "text": "Short harsh access denied buzzer",
+  "dur": 0.5,
+  "influence": 0.8
+ },
+ {
+  "name": "cash",
+  "text": "Old mechanical cash register cha-ching with bell",
+  "dur": 1.2,
+  "influence": 0.7
+ },
+ {
+  "name": "whip",
+  "text": "Very fast whip pan whoosh",
+  "dur": 0.6,
+  "influence": 0.7
+ },
+ {
+  "name": "audience",
+  "text": "Small TV studio audience gasps ooh in amazement, then bursts into applause",
+  "dur": 3.0,
+  "influence": 0.6
+ },
+ {
+  "name": "phone_ring",
+  "text": "A 1990s landline telephone rings once",
+  "dur": 1.4,
+  "influence": 0.7
+ },
+ {
+  "name": "handset",
+  "text": "Telephone handset lifted off the hook, plastic click and clatter",
+  "dur": 0.7,
+  "influence": 0.75
+ },
+ {
+  "name": "fail",
+  "text": "Sad descending synthesizer power-down tone, a machine dying, 1990s computer",
+  "dur": 1.3,
+  "influence": 0.7
+ },
+ {
+  "name": "static",
+  "text": "Short burst of analog TV static noise, VHS tracking glitch",
+  "dur": 0.6,
+  "influence": 0.75
+ }
+]

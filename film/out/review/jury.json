@@ -1,0 +1,40 @@
+{
+ "round1": {
+  "score": 7.1,
+  "scores": [
+   7.0,
+   7.0,
+   7.2
+  ],
+  "fixes": 26,
+  "file": "all-of-them_v1.mp4",
+  "files": [
+   "open.js",
+   "01-line.js",
+   "02-boil.js",
+   "03-bauhaus.js",
+   "04-iso.js",
+   "05-flat.js",
+   "06-morph.js",
+   "07-liquid.js",
+   "08-sticker.js",
+   "09-pixel.js",
+   "10-synth.js",
+   "11-hud.js",
+   "12-collage.js",
+   "13-soft.js",
+   "14-aurora.js",
+   "15-variety.js",
+   "end.js"
+  ]
+ },
+ "round2": {
+  "score": 7.3,
+  "scores": [
+   7.4,
+   7.0,
+   7.4
+  ],
+  "file": "all-of-them_v2.mp4"
+ }
+}

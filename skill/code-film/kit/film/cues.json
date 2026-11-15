@@ -1,0 +1,14 @@
+{
+  "note": "One cue sheet for picture and sound. lines: the voice script (say = what the voice reads, text = caption). tools/vo.mjs fills in dur and words. shots: where each shot cuts in (at a time, before a line, or before a spoken word). music.from: the shot where the music enters. hiss: tape hiss level, 0 for a clean track.",
+  "leadIn": 0.3,
+  "tail": 1.0,
+  "hiss": 0,
+  "music": { "from": "hello" },
+  "lines": [
+    { "id": "one", "shot": "hello", "text": "This film is made in code.", "dur": 2.2, "gap": 0.3 },
+    { "id": "two", "shot": "hello", "text": "Every frame is a function of time.", "dur": 2.6, "gap": 0.0 }
+  ],
+  "shots": [
+    { "name": "hello", "at": 0 }
+  ]
+}

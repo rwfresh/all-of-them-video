@@ -1,0 +1,168 @@
+{
+ "positive_global_styles": [
+  "instrumental",
+  "melodic house and future pop",
+  "exactly 124 BPM, steady tempo",
+  "bright plucky synths",
+  "warm analog bass",
+  "crisp punchy drums",
+  "optimistic",
+  "polished, modern, high-end product film",
+  "an 80s synthwave lead joins at the drop"
+ ],
+ "negative_global_styles": [
+  "vocals",
+  "singing",
+  "spoken word",
+  "tempo changes",
+  "swing",
+  "lo-fi",
+  "distorted guitar"
+ ],
+ "sections": [
+  {
+   "section_name": "Intro",
+   "positive_local_styles": [
+    "almost silent",
+    "one soft muted pulse on every beat",
+    "sparse",
+    "lots of empty space"
+   ],
+   "negative_local_styles": [
+    "drums",
+    "melody",
+    "loud"
+   ],
+   "duration_ms": 3871,
+   "lines": []
+  },
+  {
+   "section_name": "First theme",
+   "positive_local_styles": [
+    "minimal",
+    "a delicate plucked melody enters",
+    "soft sub pulse",
+    "light closed hi-hat ticks",
+    "curious and gentle",
+    "a second playful voice joins halfway"
+   ],
+   "negative_local_styles": [
+    "kick drum",
+    "heavy bass",
+    "busy"
+   ],
+   "duration_ms": 11613,
+   "lines": []
+  },
+  {
+   "section_name": "Groove",
+   "positive_local_styles": [
+    "the full beat enters on the first beat",
+    "four-on-the-floor kick",
+    "claps",
+    "driving bassline",
+    "a new layer joins every two bars",
+    "energetic and building"
+   ],
+   "negative_local_styles": [
+    "breakdown",
+    "slow"
+   ],
+   "duration_ms": 19355,
+   "lines": []
+  },
+  {
+   "section_name": "Breakdown",
+   "positive_local_styles": [
+    "drums drop out completely",
+    "calm clean chords",
+    "soft arpeggio",
+    "breathing room"
+   ],
+   "negative_local_styles": [
+    "kick drum",
+    "snare"
+   ],
+   "duration_ms": 5806,
+   "lines": []
+  },
+  {
+   "section_name": "Build",
+   "positive_local_styles": [
+    "tension build",
+    "rising noise riser",
+    "accelerating snare roll",
+    "pitch rising",
+    "a short silence right before the drop"
+   ],
+   "negative_local_styles": [
+    "calm",
+    "resolved"
+   ],
+   "duration_ms": 5806,
+   "lines": []
+  },
+  {
+   "section_name": "Drop",
+   "positive_local_styles": [
+    "huge drop on the first beat",
+    "big impact hit",
+    "soaring lead melody",
+    "full power",
+    "euphoric",
+    "wide and loud"
+   ],
+   "negative_local_styles": [
+    "quiet",
+    "sparse"
+   ],
+   "duration_ms": 15484,
+   "lines": []
+  },
+  {
+   "section_name": "Breathe",
+   "positive_local_styles": [
+    "sudden calm",
+    "drums out",
+    "shimmering ambient pad",
+    "slow and airy"
+   ],
+   "negative_local_styles": [
+    "kick drum",
+    "snare",
+    "busy"
+   ],
+   "duration_ms": 3871,
+   "lines": []
+  },
+  {
+   "section_name": "Lift",
+   "positive_local_styles": [
+    "the beat returns",
+    "bouncy and playful",
+    "claps",
+    "bright stabs"
+   ],
+   "negative_local_styles": [
+    "slow",
+    "sad"
+   ],
+   "duration_ms": 3871,
+   "lines": []
+  },
+  {
+   "section_name": "Outro",
+   "positive_local_styles": [
+    "one final hit on the first beat",
+    "then a single soft sustained note fading out",
+    "resolved ending"
+   ],
+   "negative_local_styles": [
+    "drums",
+    "new melody"
+   ],
+   "duration_ms": 5371,
+   "lines": []
+  }
+ ]
+}

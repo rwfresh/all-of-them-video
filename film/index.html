@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<title>All of Them</title>
+<style>
+  /* Fonts are local files loaded by the shots that use them (ctx.font), so a render never depends on the network. */
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  canvas#film { display: block; width: 1920px; height: 1080px; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "/node_modules/three/build/three.module.js", "three/addons/": "/node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<canvas id="film" width="1920" height="1080"></canvas>
+<script type="module" src="./js/main.js"></script>
+</body>
+</html>

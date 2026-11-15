@@ -1,0 +1,15 @@
+{
+  "name": "code-film",
+  "private": true,
+  "type": "module",
+  "filmName": "film",
+  "description": "A film drawn in code: a web page renders every frame as a function of time.",
+  "scripts": {
+    "stills": "node harness/render.mjs film --stills",
+    "build": "bash tools/build.sh"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.17.0",
+    "three": "^0.187.0"
+  }
+}

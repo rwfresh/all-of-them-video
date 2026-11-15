@@ -1,0 +1,22 @@
+# Final fix pass (after jury round 2): what was done
+
+Only faults that broke one of the film's rules or contradicted something on screen. Done by the lead (open/end, cue
+sheet, tools) and by six fresh agents on Opus 5.5 at high effort, one or two shots each (briefed from `fix-round-2.md`).
+
+| fault (juror) | shot | state | what was done |
+|---|---|---|---|
+| final frame's cut-off welcome box, outside title-safe (A, C) | end | fixed (lead), checked | the box now scrolls off the top whole; fifteen dots, one in each style's colour, light beside the names so the last seconds are never still |
+| 15 shots against 17 files (C) | collage | fixed, cue sheet (lead) and shot (agent) | fifteen `Update(shots/NN-name.js)` lines; fifteen prints; the counter ends on `15 FILES`, says `1 FILE` in the singular and steps with its line; newsprint reads `15 SHOTS · 40 BARS · 160 BEATS · 124 BPM`; no print within 40 px of the `26 FIXES` ring (closest 64 px) |
+| line to boil in effect a cross-fade (A) | boil | fixed by the agent's measurement | an opaque cream sheet with peg holes slides in over about 10 frames and lands on the bar line (translucent only in its last 120 px); mean brightness rises in steady steps, largest one-frame jump 21.9 (was 43 and 57); the cursor becomes the matchstick as the sheet's edge passes it |
+| flare washes OF TH on the hit (A, both rounds) | synth | fixed, checked on the hit frame | the title's own picture goes back over the frame after the glow, with a dark edge about 3 px wide; the hit frame shows the title landed; all nine letters read on every frame from 46.45 s |
+| reflection smears, script piles onto the palm (B) | synth | fixed by removing the reflection | a clean mirror could only show a fragment of the O (the road is a narrow strip between the hills), so the reflection is gone; the script moved 150 px left and 9 px up, clear of the title and both palms |
+| HUD flags read as false against the hero just watched (B, C) | hud | fixed, checked in two stills | the tape pauses, the deck shows `◀◀ REW`, the picture rolls back to the first cut, which then holds clean in true colour for about 0.45 s under a big `FIRST CUT` and its file name (from `ctx.shot.file`): no palms, a tight title, the script on the title; only then does the scan make it a hologram. Three flags (no word space, script touches title, no palm trees) lock at 2.5, 3.25, 4; the verdict lands at 5. The footer's film counters are gone, so `FRAME 3019 · 0:50` is the only frame read-out; X/Y figures keep 16 px clear or are left out |
+| sticker labels under 28 px; stepped blur ghosts (B) | sticker | fixed by the agent's measurement | `headless Chromium` 33 px, `= 1 second = 60 frames` 33 px, frame count and length about 32 px, the file name about 31 px; the camera moves are smeared along their own path (no ghost copies). Still under 28 px: `time, in seconds`, `1920 × 1080 px`, the `t =` captions |
+| lens parked on the score; small grey card labels; prompt row dropping to 20% (C) | aurora | fixed, checked in a still | from beat 5 the lens rests in empty aurora at (1616, 676), clear of the score and every label; labels 28 to 30 px at 85% white; each new prompt letter appears as soon as its column is cleared. Also (lead): the card's still is now the hero frame taken from the real `all-of-them_v2.mp4` (`assets/aurora/hero_v2.png`), since that is the file the card names |
+| sticker to pixel a one-frame cut, then a ghost number and scrambled prompt (B) | pixel | fixed by the agent's measurement | Sticker's own picture pixelates on the three crush beats (blocks of 3 with its colours snapped to the palette, 6, 12); the paper then turns into sky and world from the top down in a dithered band between beats 0.5 and 1; each sticker falls whole behind the film strip; the number is drawn once and lands as `/4646`; the prompt row changes one whole cell at a time. Largest one-frame brightness change 15.1 (was 99.6) |
+
+Consequence of removing the reflection: the HUD's `NO FLOOR REFLECTION` flag would no longer mark a difference between
+the first cut and the finished film, so the HUD keeps three flags (word space, script touching title, palm trees).
+Fix B1 of round 1 therefore stands without its reflection part.
+
+New sounds: hud_rewind | 0.5 | a VCR rewind, motor whirr rising with squealing tape ; hud_stop | 1.0 | the deck's mechanical clunk as the tape stops. Re-timed: hud_boot 1.9, hud_probe 2.125, hud_lock 2.5, 3.25, 4.
